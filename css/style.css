@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-1 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-2 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-3 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-4 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-5 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-6 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-7 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+/* line 2, ../../../Desktop/Belén/Coder/Bootstrap y scss/sass/style.scss */
+.producto-8 {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 1, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+/* line 5, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.logoBeer {
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+}
+.bienvenida {
+  background-size: cover, contain;
+  width: 100%;
+}
+  
+
+/* line 10, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+
+
+.featurette-divider {
+  border: hidden;
+  box-shadow: -10px 10px 5px #e4dfdf;
+}
+/* line 14, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Index */
+/* line 20, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+ul {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* line 23, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+ul li {
+  display: inline-block;
+  padding: 10px 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.container-fluid {
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+}
+.col {
+  box-shadow: -10px 10px 5px #e4dfdf;
+}
+div .birra img {
+  box-shadow: -10px 10px 5px #e4dfdf;
+}
+
+.birra {
+  margin: 15px 0px 10px 0px;
+}
+.birra p {
+  margin-top: 15px;
+}
+.nuestrasCervecerias {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  /* line 32, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+  ul {
+    margin-top: 0px !important;
+  }
+  /* line 34, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+  ul li {
+    padding: 10px 30%;
+  }
+  /* line 38, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+  .logoBeer {
+    margin-left: 0px !important;
+    max-width: 100%;
+    height: auto;
+  }
+  /* line 44, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+
+  .birra {
+    margin: 20px !important;
+  }
+  .sedes{
+    margin: 20px !important;
+  }
+  div .col {
+    margin: 20px !important;
+  }
+  
+  .footer{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .footer div{
+    margin: 10px 25%;
+    text-align: center !important;
+  
+  }
+  .cont-container img{
+    width: auto;
+    align-content: center !important;
+    margin: 10px;
+
+  }
+  .cont1 {
+    width: 100% !important;
+    margin: 5px !important;
+    text-align: center !important;
+  }
+  .sub-content p {
+    text-align: center !important;
+  }
+  .producto {
+    width: 80% !important;
+   
+  }
+  .datos {
+    width: 100% !important;
+  }
+
+}
+
+/* line 49, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.logoBeer {
+  margin-left: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 63, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.hipervinculo {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 67, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.hipervinculo:hover {
+  color: #f8a7a7;
+  font-size: 17px;
+}
+
+
+/* line 115, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 119, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 123, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.footer {
+  border-top: solid 2px #aca9a9 ack;
+  margin-top: 10px;
+  background-color: #f1b0b0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 132, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.footer__derechos {
+  border-right-width: 2px;
+  margin-top: 10px;
+}
+
+/*#grad{
+background-image: linear-gradient(to bottom, rgb(241, 176, 176), grey);
+
+}*/
+/*Bootstap*/
+
+
+/* Quienes Somos */
+/* line 142, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.cont-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /*border: solid 3px #aca9a9;*/
+  box-shadow: -10px 10px 5px #e4dfdf;
+  margin-top: 10px;
+}
+
+/* line 149, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.cont-container img {
+  border-radius: 7px;
+}
+
+
+/* line 156, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.cont1 {
+  width: 73%;
+  margin: 10px 0px 10px 10px;
+  text-align: left;
+}
+.cont1 h3 {
+  text-align: left;
+}
+
+/* line 161, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.cont-img {
+  width: 23%;
+  margin: 10px 0px 10px 10px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+}
+
+/* line 166, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.sub-content p {
+  text-align: left;
+}
+
+/* line 169, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.sub-content h2 {
+  text-align: center;
+}
+
+/* Nuestros Productos */
+/* line 175, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.tituloProductos {
+  margin: 12px;
+  text-align: center;
+}
+
+/* line 178, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 184, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.producto {
+  width: 24%;
+  /*border: solid 1px black;*/
+  border-radius: 20px;
+  box-shadow: -10px 10px 5px #e4dfdf;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+/* line 193, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.producto img {
+  border-radius: 7px;
+}
+
+/* line 196, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.producto:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* line 199, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.detalle {
+  display: inline-block;
+}
+
+/* Donde Estamos*/
+/* line 204, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.tituloSedes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 207, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.cd {
+  /* border-top: solid 1px #aca9a9;
+  border-bottom: solid 1px #aca9a9;*/
+  box-shadow: -10px 10px 5px #e4dfdf;
+}
+
+/* line 211, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* line 218, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.imgs img {
+  border-radius: 7px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+/* line 226, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.datos-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 232, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.datos {
+  text-align: center;
+}
+
+/*Contacto*/
+/* line 237, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.form {
+  width: 100%;
+}
+
+.tituloContacto {
+  margin-top: 20px;
+}
+.contacto h1 {
+  width: 100%;
+  text-align: center;
+}
+.contacto form {
+  padding: 0px 10%;
+
+}
+
+/* line 304, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.visitanosRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+.titleContactoRedes {
+  margin: 30px !important;
+}
+
+/* line 310, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.visitanosRedes a {
+  margin: 0px 15px;
+}
+
+/* line 313, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.visitanosRedes a img {
+  border-radius: 15px;
+}
+
+/* line 323, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.footer__redes .footer__link {
+  margin: 0px 7px;
+}
+
+
+/* line 325, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.footer__redes .footer__link .footer__img {
+  border-radius: 5px;
+  filter: grayscale(100%);
+}
+
+/* line 331, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.suscribe a {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+/* line 337, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+.suscribe:hover {
+  background-color: black;
+  color: white;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 349, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+h1, h2, h3 {
+  animation-duration: 1s;
+  animation-name: aparecer;
+}
+
+/* line 353, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+p {
+  animation-duration: 1.5s;
+  animation-name: aparecer;
+}
+
+/* line 357, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
+img {
+  animation-duration: 0.3s;
+  animation-name: aparecer;
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
+

@@ -1,0 +1,308 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.logoBeer{
+margin-left: 50px;
+width: 150px;
+height: 150px;
+}
+.bienvenida {
+background-size: cover, contain;
+width: 100%;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+/* Index */
+ul{
+text-align: center;
+margin-top: 3rem;
+    li {
+    display: inline-block;
+    padding: 10px 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    }
+    
+}
+@media (max-width: 576px) {
+    ul {
+        margin-top: 0px !important;
+        li {
+            padding: 10px 30%;
+            }
+    }
+    .logoBeer {
+        margin-left: 0px !important;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .sedes div{
+        padding: 0px 30% !important; 
+    }
+    .footer {
+        flex-direction: column;
+        &__derechos{
+            width: 100% !important;
+        }
+    }
+}
+.logoBeer {
+    margin-left: 50px;
+        max-width: 100%;
+        height: auto;
+}
+
+
+
+
+
+/*li :hover{
+background-color: rgb(241, 176, 176);
+}*/
+.hipervinculo{
+color: black;
+text-decoration: none;
+}
+.hipervinculo:hover {
+color: rgb(248, 167, 167);
+font-size: 17px;
+}
+/*.principal {
+width: 100%;
+border: solid 2px rgb(172, 169, 169);
+text-align: center;
+
+}
+.caja {
+display: inline-block;
+padding: 10px;
+}
+.sede {
+/*border: solid 2px rgb(172, 169, 169);
+border-radius: 20px;
+box-shadow: -10px 10px 5px rgb(228, 223, 223);
+}
+.sede img{
+border-radius: 5px;
+}
+.sedes{
+min-width: 40%;
+height: 30%;
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+border-right: solid 2px rgb(172, 169, 169);
+}
+.birrames {
+min-width: 10%;
+height: 30%;
+border-radius: 5px;
+}
+.birrames img{
+border-radius: 5px;
+}
+.birrames p {
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+}
+.caja .birrames{
+padding-top: 20px;
+padding-left: 30px;
+margin-left: 10px;
+}
+*/
+h3{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+}
+h2{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+}
+.footer {
+border-top: solid 2px rgb(172, 169, 169)ack;
+margin-top: 10px;
+background-color:  rgb(241, 176, 176);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+.footer__derechos {
+    border-right-width: 2px;
+}
+/*#grad{
+background-image: linear-gradient(to bottom, rgb(241, 176, 176), grey);
+
+}*/
+/*Bootstap*/
+
+/* Quienes Somos */
+.cont-container {
+display: flex; 
+flex-wrap: wrap; 
+flex-direction: row;
+justify-content: space-around;
+border: solid 3px rgb(172, 169, 169);
+margin-top: 10px;
+ img{
+border-radius: 7px;
+}
+}
+/*.cont-container img{
+border-radius: 7px;
+}*/
+.cont1 {
+width: 73%;
+margin: 10px 0px 10px 10px;
+text-align: left;
+}
+.cont-img {
+width: 23%;
+margin: 10px 0px 10px 10px;
+}
+
+.sub-content p {
+text-align: left;
+}
+.sub-content h2 {
+text-align: center;
+}
+
+/* Nuestros Productos */
+
+.tituloProductos {
+text-align: center;
+}
+.flex-container {
+display: flex; 
+flex-wrap: wrap; 
+flex-direction: row;
+justify-content: space-around;    
+}
+@for $i from 1 to 8 {
+    
+    .producto-#{$i} {
+    width: 24%;
+    /*border: solid 1px black;*/
+    border-radius: 20px;
+    box-shadow: -10px 10px 5px rgb(228, 223, 223);
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+    }
+}
+.producto img{
+border-radius: 7px;
+}
+.producto:hover{
+ transform: scale(1.1,1.1);
+}
+.detalle {
+display: inline-block;
+}
+
+/* Donde Estamos*/
+.tituloSedes {
+text-align: center;
+}
+.cd {
+border-top: solid 1px rgb(172, 169, 169);
+border-bottom: solid 1px rgb(172, 169, 169);
+}
+.imgs {
+display: flex; 
+flex-wrap: wrap; 
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+.imgs img {
+border-radius: 7px;
+/*width: 20%;
+height: 150px;*/
+text-align: center;
+margin-top: 10px;
+padding: 1px;
+}
+.datos-container {
+display: flex; 
+flex-wrap: wrap; 
+flex-direction: row;
+justify-content: space-around;   
+}
+.datos {
+text-align: center;
+}
+
+/*Contacto*/
+.contacto{
+text-align: center;
+}
+
+.visitanosRedes {
+display: flex; 
+flex-direction: row; 
+justify-content: center;
+padding: 20px;
+}
+.visitanosRedes a {
+margin: 0px 15px;
+}
+.visitanosRedes a img {
+border-radius: 15px;
+}
+/*.redes {
+display: flex; 
+flex-direction: row; 
+justify-content: center;
+width: 40px;
+}*/
+.footer__redes {
+    .footer__link {
+        margin: 0px 7px;
+        .footer__img {
+            border-radius: 5px;
+            filter: grayscale(100%);
+        }
+    }
+}
+.suscribe a {
+background-color: white;
+text-decoration: none;
+border-radius: 5px;
+color: black;
+}
+.suscribe:hover {
+background-color: black;
+color: white;
+}
+@keyframes aparecer {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+h1, h2, h3 {
+animation-duration: 1s;
+animation-name: aparecer;
+}
+p {
+animation-duration: 1.5s;
+animation-name: aparecer;
+}
+img{
+animation-duration: 0.3s;
+animation-name: aparecer;
+max-width: 100%;
+height: auto;
+
+}
+
