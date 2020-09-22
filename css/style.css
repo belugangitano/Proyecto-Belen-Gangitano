@@ -232,7 +232,7 @@ div .birra img {
 /* line 67, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
 .hipervinculo:hover {
   color: #f8a7a7;
-  font-size: 17px;
+  transition: all 0.05s;
 }
 
 
@@ -351,6 +351,7 @@ background-image: linear-gradient(to bottom, rgb(241, 176, 176), grey);
 /* line 196, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
 .producto:hover {
   transform: scale(1.1, 1.1);
+  transition: all 0.2s;
 }
 
 /* line 199, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
@@ -472,13 +473,13 @@ background-image: linear-gradient(to bottom, rgb(241, 176, 176), grey);
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 1.5;
   }
 }
 
 /* line 349, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
 h1, h2, h3 {
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-name: aparecer;
 }
 
@@ -490,7 +491,7 @@ p {
 
 /* line 357, ../../../Desktop/Belén/Coder/Bootstrap/sass/style.scss */
 img {
-  animation-duration: 0.3s;
+  animation-duration: 1s;
   animation-name: aparecer;
   max-width: 100%;
   height: auto;
